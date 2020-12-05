@@ -4,4 +4,5 @@ metadata:
   name: "default"
   namespace: "istio-system"
 spec:
-    -mtls: {}
+  peers:
+    - mtls: {}
